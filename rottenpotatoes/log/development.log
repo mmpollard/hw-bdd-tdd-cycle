@@ -881,3 +881,4 @@ Migrating to AddDirector (20160301034900)
   [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
   [1m[35m (6.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160301034900')
   [1m[36m (6.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20111119180638')[0m
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
