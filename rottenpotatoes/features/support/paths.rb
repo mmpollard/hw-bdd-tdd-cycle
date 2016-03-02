@@ -21,6 +21,8 @@ module NavigationHelpers
       movie_path(Movie.find_by_title($1).id)
     when /^the Similar Movies page for "(.*)"$/
       director_path(Movie.find_by_title($1).id)
+    when /^the RottenPotatoes home page$/
+      movies_path
       
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
